@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/microcontroller/vivadodesign/addsub/addsub.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/microcontroller/vivadodesign/addsub/addsub.srcs/sim_1/new/addsubsim.v,1564234782,verilog,,,,addsubsim,,,,,,,,
+D:/microcontroller/vivadodesign/addsub/addsub.srcs/sources_1/new/addsub.v,1564212206,verilog,,D:/microcontroller/vivadodesign/fulladder/fulladder.srcs/sources_1/new/fulladder.v,,addsub,,,,,,,,
+D:/microcontroller/vivadodesign/fulladder/fulladder.srcs/sources_1/new/fulladder.v,1564053063,verilog,,D:/microcontroller/vivadodesign/halfadder/halfadder.srcs/sources_1/new/halfadder.v,,fulladder,,,,,,,,
+D:/microcontroller/vivadodesign/halfadder/halfadder.srcs/sources_1/new/halfadder.v,1564049776,verilog,,D:/microcontroller/vivadodesign/addsub/addsub.srcs/sim_1/new/addsubsim.v,,halfadder,,,,,,,,

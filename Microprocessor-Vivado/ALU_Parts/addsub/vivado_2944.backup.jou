@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Jul 27 11:43:14 2019
+# Process ID: 2944
+# Current directory: D:/microcontroller/vivadodesign/addsub
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7744 D:\microcontroller\vivadodesign\addsub\addsub.xpr
+# Log file: D:/microcontroller/vivadodesign/addsub/vivado.log
+# Journal file: D:/microcontroller/vivadodesign/addsub\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/microcontroller/vivadodesign/addsub/addsub.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+synth_design -rtl -name rtl_1
+file mkdir D:/microcontroller/vivadodesign/addsub/addsub.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/microcontroller/vivadodesign/addsub/addsub.srcs/sim_1/new/addsubsim.v w ]
+add_files -fileset sim_1 D:/microcontroller/vivadodesign/addsub/addsub.srcs/sim_1/new/addsubsim.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source addsubsim.tcl
+close_sim
+launch_simulation
+source addsubsim.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+refresh_design
+close_sim
+launch_simulation
+source addsubsim.tcl
+relaunch_sim
+close_sim
