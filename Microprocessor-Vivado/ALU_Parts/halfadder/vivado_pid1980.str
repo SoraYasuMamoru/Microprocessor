@@ -1,0 +1,152 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 1980
+License: Customer
+
+Current time: 	Fri Jul 26 20:01:33 IST 2019
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 4 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	SoumyaSM
+User home directory: C:/Users/SoumyaSM
+User working directory: D:/microcontroller/vivadodesign/halfadder
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2018.3
+RDI_DATADIR: D:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: D:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/SoumyaSM/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/SoumyaSM/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/SoumyaSM/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	D:/microcontroller/vivadodesign/halfadder/vivado.log
+Vivado journal file location: 	D:/microcontroller/vivadodesign/halfadder/vivado.jou
+Engine tmp dir: 	D:/microcontroller/vivadodesign/halfadder/.Xil/Vivado-1980-SoumyasLab
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2018.3
+XILINX_SDK: D:/Xilinx/SDK/2018.3
+XILINX_VIVADO: D:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 432 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  2346 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3212 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1338 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 748ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2680 ms.
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 45 MB (+44272kb) [00:01:11]
+// [Engine Memory]: 440 MB (+310200kb) [00:01:11]
+// bx (cp):  Open Project : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2182 ms.
+// Opening Vivado Project: D:\microcontroller\vivadodesign\halfadder\halfadder.xpr. Version: Vivado v2018.3 
+// HMemoryUtils.trashcanNow. Engine heap size: 439 MB. GUI used memory: 44 MB. Current time: 7/26/19, 8:01:39 PM IST
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/microcontroller/vivadodesign/halfadder/halfadder.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/microcontroller/vivadodesign/halfadder/halfadder.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 521 MB. GUI used memory: 46 MB. Current time: 7/26/19, 8:01:58 PM IST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3829 ms. Increasing delay to 3000 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 100 MB (+56119kb) [00:01:53]
+// [Engine Memory]: 521 MB (+61107kb) [00:01:53]
+// WARNING: updateGUI() is taking  2453 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  8352 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1054 ms.
+// Project name: halfadder; location: D:/microcontroller/vivadodesign/halfadder; part: xc7a100tcsg324-1
+// WARNING: updateGUI() is taking  1048 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1093 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:53 . Memory (MB): peak = 728.090 ; gain = 137.043 
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 574ms to process. Increasing delay to 3000 ms.
+dismissDialog("Open Project"); // bx (cp)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 8038 ms. Increasing delay to 4000 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1186 ms. Increasing delay to 3558 ms.
+// [GUI Memory]: 108 MB (+2933kb) [00:07:01]
+// Elapsed time: 1267 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "1 warning"); // h (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "1 warning"); // h (Q, cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  3894 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 521 MB. GUI used memory: 49 MB. Current time: 7/26/19, 8:32:03 PM IST
+// PAPropertyPanels.initPanels (halfadder.v) elapsed time: 1.5s
+// Elapsed time: 1255 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, halfadder (halfadder.v)]", 1, false); // B (D, cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  4131 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, halfadder (halfadder.v)]", 1, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, halfadder (halfadder.v)]", 1, false, false, false, false, false, true); // B (D, cp) - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1571 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3507 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 521 MB. GUI used memory: 48 MB. Current time: 7/26/19, 9:02:03 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 521 MB. GUI used memory: 49 MB. Current time: 7/26/19, 9:32:00 PM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  1771 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 521 MB. GUI used memory: 47 MB. Current time: 7/26/19, 10:02:02 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 521 MB. GUI used memory: 46 MB. Current time: 7/26/19, 10:32:01 PM IST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 606 ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1015 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 521 MB. GUI used memory: 46 MB. Current time: 7/26/19, 11:02:02 PM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  1380 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2246 ms. Increasing delay to 6738 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 521 MB. GUI used memory: 46 MB. Current time: 7/26/19, 11:32:02 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 521 MB. GUI used memory: 46 MB. Current time: 7/27/19, 12:02:02 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 521 MB. GUI used memory: 46 MB. Current time: 7/27/19, 12:32:02 AM IST
