@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul 26 19:59:26 2019
+# Process ID: 27468
+# Current directory: D:/microcontroller/vivadodesign/fulladder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26508 D:\microcontroller\vivadodesign\fulladder\fulladder.xpr
+# Log file: D:/microcontroller/vivadodesign/fulladder/vivado.log
+# Journal file: D:/microcontroller/vivadodesign/fulladder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/microcontroller/vivadodesign/fulladder/fulladder.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:55 . Memory (MB): peak = 721.953 ; gain = 148.824
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+[Fri Jul 26 20:24:35 2019] Launched synth_1...
+Run output will be captured here: D:/microcontroller/vivadodesign/fulladder/fulladder.runs/synth_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: fulladder
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 834.617 ; gain = 57.871
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fulladder' [D:/microcontroller/vivadodesign/fulladder/fulladder.srcs/sources_1/new/fulladder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'halfadder' [D:/microcontroller/vivadodesign/halfadder/halfadder.srcs/sources_1/new/halfadder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'halfadder' (1#1) [D:/microcontroller/vivadodesign/halfadder/halfadder.srcs/sources_1/new/halfadder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fulladder' (2#1) [D:/microcontroller/vivadodesign/fulladder/fulladder.srcs/sources_1/new/fulladder.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 888.199 ; gain = 111.453
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 888.199 ; gain = 111.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 888.199 ; gain = 111.453
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1153.660 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:47 . Memory (MB): peak = 1254.609 ; gain = 477.863
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:48 . Memory (MB): peak = 1254.609 ; gain = 477.863

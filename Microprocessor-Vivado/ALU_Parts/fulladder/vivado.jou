@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul 26 19:59:26 2019
+# Process ID: 27468
+# Current directory: D:/microcontroller/vivadodesign/fulladder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26508 D:\microcontroller\vivadodesign\fulladder\fulladder.xpr
+# Log file: D:/microcontroller/vivadodesign/fulladder/vivado.log
+# Journal file: D:/microcontroller/vivadodesign/fulladder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/microcontroller/vivadodesign/fulladder/fulladder.xpr
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+synth_design -rtl -name rtl_1
